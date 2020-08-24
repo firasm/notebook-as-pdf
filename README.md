@@ -38,9 +38,9 @@ and then downloaded.
 
 You can also use it with `nbconvert`:
 ```
-jupyter-nbconvert --to PDFviaHTML example.ipynb
+jupyter-nbconvert --to PDFviaHTML --execute example.ipynb
 ```
-which will create a file called `example.pdf`.
+which will first execute the notebook, then create a file called `example.pdf`.
 
 You will have to use Acrobat Reader to see the attachment to your PDF. Preview
 on OSX can not display PDF attachments.
